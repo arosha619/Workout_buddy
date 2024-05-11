@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import WorkoutDetails from "../components/WorkoutDetails";
+import WorkoutForms from "../components/WorkoutForms";
 
 function Home() {
   const [workouts, setWorkouts] = useState(null);
@@ -25,6 +26,7 @@ function Home() {
           ))}
           
       </div>
+      <WorkoutForms/>
     </div>
   );
 }
