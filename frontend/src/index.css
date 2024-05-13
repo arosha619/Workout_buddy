@@ -56,10 +56,10 @@ header a{
   top: 20px;
   right: 20px;
   cursor: pointer;
-  background: white;
+  background: rgb(111, 7, 7);
   padding: 6px;
-  border-radius: 50%;
-  color: #333;
+  border-radius: 5%;
+  color: #f2efef;
 }
 /* work out form */
 label,input{

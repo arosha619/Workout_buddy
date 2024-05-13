@@ -29,7 +29,7 @@ function WorkoutForms() {
         setLoad('')
         setReps('')
         setError(null)
-        alert('new workout added', json)
+        // alert('new workout added', json)
         console.log('new workout added', json);
     }
   }
